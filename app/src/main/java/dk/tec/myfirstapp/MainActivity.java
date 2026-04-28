@@ -49,5 +49,6 @@ public class MainActivity extends AppCompatActivity {
 //            sendIntent.putExtra(Intent.EXTRA_TEXT, "test123");
 //            startActivity(sendIntent);
 //        });
+        //
     }
 }
