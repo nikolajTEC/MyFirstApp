@@ -40,15 +40,9 @@ public class MainActivity extends AppCompatActivity {
         });
         imgBtn.setOnClickListener(view -> {
            Intent intent = new Intent(this, SecondActivity.class);
+           intent.putExtra("Name", "Lisa");
+           intent.putExtra("Darkmode", true);
            startActivity(intent);
         });
-//        imgBtn.setOnClickListener(view -> {
-//            Intent sendIntent = new Intent();
-//            sendIntent.setAction(Intent.ACTION_SEND);
-//            sendIntent.setType("text/plain");
-//            sendIntent.putExtra(Intent.EXTRA_TEXT, "test123");
-//            startActivity(sendIntent);
-//        });
-        //
     }
 }
